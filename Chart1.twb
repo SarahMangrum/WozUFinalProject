@@ -657,6 +657,7 @@
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
+
       <layout-options>
         <title>
           <formatted-text>
@@ -706,6 +707,7 @@
           </pane>
         </panes>
         <rows>[federated.1sm52ni1srboh616gu55v0pt6mex].[cnt:Age:qk]</rows>
+
         <cols>([federated.1sm52ni1srboh616gu55v0pt6mex].[none:Attrition:nk] * [federated.1sm52ni1srboh616gu55v0pt6mex].[none:Age:qk])</cols>
       </table>
       <simple-id uuid='{35C7F606-33F0-4AE8-918C-806AE27C6A99}' />
@@ -882,6 +884,7 @@
           <style-rule element='header-div'>
             <format attr='stroke-size' scope='rows' value='4' />
             <format attr='stroke-color' scope='rows' value='#666666' />
+
           </style-rule>
         </style>
         <panes>
@@ -962,6 +965,11 @@
           </strip>
           <strip size='2147483647'>
             <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1sm52ni1srboh616gu55v0pt6mex].[none:Attrition:nk]' type='shape' />
           </strip>
         </edge>
       </cards>
